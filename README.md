@@ -1,21 +1,37 @@
+Sure! Here’s a complete, polished README.md you can use for your repo:
 
-This repository contains my solution for the Keploy API Fellowship Session 3 assignment.
+````markdown
+# Keploy API Fellowship Session 2 Assignment
+
+This repository contains my solution for the Keploy API Fellowship Session 2 assignment.
 
 ## Project Overview
 
 - Built a custom API server using Node.js and Express.
 - Integrated MongoDB for data persistence.
-- Implemented tests using Jest and Supertest.
-- Used `mongodb-memory-server` for running tests with an in-memory MongoDB instance.
+- Implemented unit, integration, and API tests using Jest and Supertest.
+- Used `mongodb-memory-server` to run tests against an in-memory MongoDB instance.
 
-- ## Test Coverage
+## API Description
 
-![Test Coverage](coverage.png)
+This API server provides CRUD operations for managing items (or your main resource). The key endpoints include:
 
+- `GET /items` — Retrieve all items
+- `POST /items` — Create a new item
+- `GET /items/:id` — Retrieve an item by ID
+- `PUT /items/:id` — Update an item by ID
+- `DELETE /items/:id` — Delete an item by ID
+
+## Testing Approach
+
+- **Unit Tests:** Cover core business logic with both mocked and real database scenarios.
+- **Integration Tests:** Verify interactions between the API server and MongoDB using `mongodb-memory-server`.
+- **API Tests:** Ensure API endpoints respond correctly using Supertest.
+- Test coverage generated with Jest.
 
 ## How to Run
 
-1. Clone the repository:
+1. Clone the repo:
 
    ```bash
    git clone https://github.com/shaswat770/keploy-api-test.git
@@ -28,21 +44,15 @@ This repository contains my solution for the Keploy API Fellowship Session 3 ass
    npm install
    ```
 
-3. Run tests:
+3. Run tests with coverage:
 
    ```bash
-   npm test
+   npm test -- --coverage
    ```
 
-## Tests Included
+## Test Coverage
 
-* API endpoint tests (`tests/api.test.js`)
-* Business logic tests (`tests/logic.test.js`)
-
-## Notes
-
-* Tests use `mongodb-memory-server` to avoid the need for an actual MongoDB server during testing.
-* Make sure you have Node.js (v14 or higher) and npm installed on your machine.
+![Test Coverage](coverage.png)
 
 ---
 
@@ -51,5 +61,16 @@ Thank you for the opportunity to participate!
 ---
 
 *Created by Shaswat Kumar Jha*
+
+```
+
+---
+
+**Next steps:**  
+- Add your coverage screenshot image to a `screenshots` folder in the repo root as `coverage.png`.  
+- Commit and push this README and the screenshot to GitHub.
+
+Let me know if you want help with that!
+```
 
 `
