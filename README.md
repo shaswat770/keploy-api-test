@@ -1,5 +1,5 @@
 
-# Keploy API Fellowship Session 3Assignment
+# Keploy API Fellowship Session 3 Assignment
 
 This repository contains my solution for the Keploy API Fellowship Session 2 assignment.
 
@@ -26,6 +26,10 @@ This API server provides CRUD operations for managing items (or your main resour
 - **Integration Tests:** Verify interactions between the API server and MongoDB using `mongodb-memory-server`.
 - **API Tests:** Ensure API endpoints respond correctly using Supertest.
 - Test coverage generated with Jest.
+- ## Test Coverage
+
+![Test Coverage](coverage.png)
+
 
 ## How to Run
 
@@ -48,9 +52,6 @@ This API server provides CRUD operations for managing items (or your main resour
    npm test -- --coverage
    ```
 
-## Test Coverage
-
-![Test Coverage](coverage.png)
 
 ---
 
@@ -64,11 +65,6 @@ Thank you for the opportunity to participate!
 
 ---
 
-**Next steps:**  
-- Add your coverage screenshot image to a `screenshots` folder in the repo root as `coverage.png`.  
-- Commit and push this README and the screenshot to GitHub.
 
-Let me know if you want help with that!
-```
 
 `
