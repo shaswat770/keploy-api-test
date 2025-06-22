@@ -8,6 +8,11 @@ This repository contains my solution for the Keploy API Fellowship Session 3 ass
 - Implemented tests using Jest and Supertest.
 - Used `mongodb-memory-server` for running tests with an in-memory MongoDB instance.
 
+- ## Test Coverage
+
+![Test Coverage](screenshots/coverage.png)
+
+
 ## How to Run
 
 1. Clone the repository:
