@@ -1,7 +1,5 @@
-Sure! Here’s a complete, polished README.md you can use for your repo:
 
-````markdown
-# Keploy API Fellowship Session 2 Assignment
+# Keploy API Fellowship Session 3Assignment
 
 This repository contains my solution for the Keploy API Fellowship Session 2 assignment.
 
