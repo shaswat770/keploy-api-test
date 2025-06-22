@@ -10,7 +10,7 @@ This repository contains my solution for the Keploy API Fellowship Session 3 ass
 
 - ## Test Coverage
 
-![Test Coverage](screenshot/coverage.png)
+![Test Coverage](coverage.png)
 
 
 ## How to Run
